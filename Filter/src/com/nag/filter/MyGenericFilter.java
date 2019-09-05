@@ -10,7 +10,6 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
 
 
-@WebFilter("/MyGenericFilter")
 public class MyGenericFilter implements Filter {
 
     public MyGenericFilter() {
